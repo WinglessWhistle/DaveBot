@@ -2,7 +2,7 @@
 const { MessageEmbed } = require("discord.js");
 const { hostname } = require("os");
 
-const ErrorEmoji = '⚠️';
+const ErrorEmoji = '👩🏻‍❤️‍👩🏻';
 
 async function HandleError(message, e) {
     // React with an emoji and wait until it's finished.

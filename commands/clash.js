@@ -1,6 +1,6 @@
 module.exports = {
     name: 'clash',
-    description: "what will he do today",
+    description: "Jordan 2s or Jordan 1s?",
     execute(message){
 
         function random_item(items) {
@@ -13,7 +13,6 @@ module.exports = {
           ];
           console.log(random_item(responses));
 
-                message.channel.send(responses);
+          message.channel.send(random_item(responses));          
     }
 }
-
