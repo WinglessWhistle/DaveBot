@@ -13,10 +13,10 @@ const client = new Discord.Client({
 
 }); 
 
-const prefix = '-';
+const prefix = '--';
 
 client.on('ready', () => {
-    client.user.setActivity('Twenty To One (prefix -)', {
+    client.user.setActivity('Twenty To One', {
         type: 'LISTENING',
     });
 });
@@ -88,7 +88,5 @@ function ParseInput(msg) {
 
     return args;
 }
-
-console.log('jordan 4s AND jordan 1s')
 
 client.login(process.env.thecodeoflife)

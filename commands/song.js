@@ -34,10 +34,10 @@ module.exports = {
             "Picture me",
             "Paper cuts",
             "100M's",
-            "Yeah, its not Dave but put on Dior because British.",
+            "Dior. It's not by Dave but funny.",
           ];
           console.log(random_item(responses));
 
-          message.channel.send(random_item(responses));          
+          message.channel.send("You Should Listen too... " + random_item(responses));          
     }
 }
