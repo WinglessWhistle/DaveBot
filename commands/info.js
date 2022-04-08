@@ -9,7 +9,7 @@ gitDetails = null;
             const embed = new MessageEmbed()
                 .setColor("GREEN")
                 .setTitle("info")
-                .setDescription(`Current Hostname: ${hostname}`);
+                .setDescription(`Current Server: ${hostname}`);
             message.channel.send({ embeds: [embed] });
         },
     }
